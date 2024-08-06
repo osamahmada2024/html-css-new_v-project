@@ -1,0 +1,95 @@
+/* dispay: flex */
+.head,
+nav>ul,
+.search,
+.discount,
+.advantage,
+.featured_products ul,
+.information,
+.photo,
+.footer {
+    display: flex;
+}
+
+/* color: var(--maincolor) */
+.desc h1,
+.information .desc span,
+nav>ul>li>a::before,
+nav>ul>li>a::after,
+.null,
+.special_category>div>div:nth-child(4):hover,
+.desc i,
+.discount_img1 span,
+.discount_img2 span,
+.line:hover,
+.line.one,
+.featured_products .colored a,
+.featured_products ul li:hover a {
+    color: var(--maincolor);
+}
+
+/* color: var(--subcolor) */
+.featured_products p,
+nav li div ul li a,
+nav>ul>li>a,
+.special_category_contnt p {
+    color: var(--subcolor);
+}
+
+/* text-transform: capitalize */
+.desc h4,
+.desc span,
+.discount_img1 span,
+.discount_img2 span,
+.discount_img1 p,
+.discount_img2 p,
+.advantage div span,
+.featured_products ul li,
+.featured_products p,
+.desc h1,
+.information .desc span,
+.title h2,
+nav>ul>li>a,
+.search p,
+.footer_ul_first ul h2,
+.footer_ul_second ul h2,
+.footer_4 h2,
+.footer_4 {
+    text-transform: capitalize;
+}
+
+
+/* position: relative */
+nav>ul>li,
+.search a:nth-child(3),
+.desc,
+.discount_img1,
+.discount_img2,
+.featured_products_image,
+.footer_4,
+.slider-item {
+    position: relative;
+}
+
+/* position: absolute */
+input+i,
+nav li div,
+.wordrobes,
+.null,
+.desc i,
+.discount_img1 span,
+.discount_img2 span,
+.discount_img1 p,
+.discount_img2 p,
+.featured_products_image .overlay,
+.desc h1,
+.information .desc span,
+.slider-item .slider-item div {
+    position: absolute;
+}
+
+/* border: 0  */
+.footer_4 input,
+input:focus {
+    border: 0;
+}

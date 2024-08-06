@@ -1,0 +1,87 @@
+/* advantages */
+.advantage {
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.advantage .image {
+    height: 70px;
+    background-repeat: no-repeat;
+    background-image: url(../images/service-icon.png);
+}
+
+.advantage>div:not(.advantage>div:last-child) {
+    text-align: center;
+    border-right: 1px solid rgba(128, 128, 128, 0.473);
+    padding-right: 20px;
+}
+
+
+.advantage div span {
+    font-weight: 550;
+}
+
+.advantage div p {
+    color: gray;
+}
+
+.advantage .image {
+    transition: background-position-y 0.5s;
+}
+
+.img_one {
+    background-position: 66px 19px;
+}
+
+.img_two {
+    background-position: 63px -163px;
+}
+
+.img_three {
+    background-position: 71px -532px;
+}
+
+.img_four {
+    background-position: 53px -349px;
+}
+
+.img_five {
+    background-position: 42px -718px;
+}
+
+.advantages hr {
+    margin-top: 70px;
+}
+
+.advantage div:hover .img_one {
+    background-position-y: -70px;
+}
+
+.advantage div:hover .img_two {
+    background-position-y: -257px;
+}
+
+.advantage div:hover .img_three {
+    background-position-y: -625px;
+}
+
+.advantage div:hover .img_four {
+    background-position-y: -440px;
+}
+
+.advantage div:hover .img_five {
+    background-position-y: -810px;
+}
+@media (max-width:800px) {
+    .advantage {
+        display: flex;
+        flex-direction: column;
+
+    }
+    .advantage>div{
+    border: 1px solid rgba(128, 128, 128, 0.473);
+        padding: 20px;
+        text-align: center;
+    }
+
+}

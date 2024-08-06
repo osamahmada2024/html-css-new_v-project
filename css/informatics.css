@@ -1,0 +1,66 @@
+
+/* informations */
+.informations {
+    margin-top: 100px;
+
+}
+.information{
+    display: flex;
+}
+.information .img {
+    flex: 1;
+
+}
+
+.information .img img {
+    height: 300px;
+    width: 340px;
+}
+
+.information .desc {
+    flex: 2;
+}
+
+.desc h1 {
+    font-size: 40px;
+    top: 20px;
+    left: 43px;
+}
+
+.information .desc span {
+    font-weight: 500;
+    top: 50;
+    left: -60;
+}
+
+.information .desc h4 {
+    margin-top: 60px;
+    margin-left: 153px;
+}
+
+.photos {
+    margin-top: 60px;
+}
+
+.photo {
+    justify-content: space-between;
+}
+
+.photo img {
+    flex: 1;
+    height: auto;
+    width: 90%;
+    margin: 0 15px;
+}
+
+
+@media (max-width:998px) {
+    .information{
+        flex-direction: column;
+    }
+    .information .img img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+}
